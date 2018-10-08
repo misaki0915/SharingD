@@ -1,0 +1,125 @@
+h2 {
+  color: #585858;
+  font-family: serif;
+  font-size: 150%;
+  margin: 1%;
+}
+
+h3 {
+  color: #585858;
+  font-family: serif;
+  font-size: 250%;
+  text-decoration: underline;
+  margin: 5% 10% 5% 5%;
+}
+
+h4 {
+  background: #f4f4f4;
+  border-bottom: solid 3px #d7d7d7;
+  border-left: solid 5px #7db4e6;
+  color: #494949;
+  font-size: 200%;
+  margin: 5% 20% 5% 5%;
+  padding: 0.4em 0.5em;
+}
+
+.login{
+  text-align: right;
+}
+
+.part_line{
+  border-left: solid 3px #668ad8;
+  color: #668ad8;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .4s;
+  position: relative;
+  padding: 0.25em 0.5em;
+}
+
+.part_line:hover {
+  padding-right: 0.3em;
+  padding-left: 0.7em;
+}
+
+.status{
+  color: #a9a9a9;
+  font-size: 100%;
+}
+
+.word {
+  border: 0;
+  box-shadow: 0 10px 10px -10px #bbb inset;
+  height: 10px;
+}
+
+.word_box {
+  background: #fefffa;
+  border: double 5px #4ec4d3;
+  margin: 5%;
+  padding: 0.5em 1em;
+}
+
+.word_box p {
+  margin: 0;
+  padding: 0;
+}
+
+.word_box_statement_simple {
+  margin: 50px 10px;
+  padding: 0.5em 1em;
+  position: relative;
+  border: solid 3px #1e90ff;
+}
+
+.word_box_statement_simple .box-title {
+  background: #1e90ff;
+  border-radius: 5px 5px 0 0;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 100%;
+  font-weight: bold;
+  height: 25px;
+  left: -3px;
+  line-height: 25px;
+  padding: 0 9px;
+  position: absolute;
+  top: -27px;
+  vertical-align: middle;
+}
+
+.word_box_statement_simple p {
+  font-size: 150%;
+  margin: 0;
+  padding: 0;
+}
+
+.word_box_statement {
+  border: solid 3px #191970;
+  margin: 50px 10px;
+  padding: 0.5em 1em;
+  position: relative;
+}
+
+.word_box_statement .box-title {
+  background: #191970;
+  border-radius: 5px 5px 0 0;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 100%;
+  font-weight: bold;
+  height: 25px;
+  left: -3px;
+  line-height: 25px;
+  padding: 0 9px;
+  position: absolute;
+  top: -27px;
+  vertical-align: middle;
+}
+
+.word_box_statement p {
+  font-size: 150%;
+  margin: 0;
+  padding: 0;
+}

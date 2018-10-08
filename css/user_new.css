@@ -1,0 +1,37 @@
+h2 {
+  background: #87ceeb;
+  margin: 5%;
+  padding: 0.6em;
+  position: relative;
+  width: 30%;
+}
+
+h2:after {
+  border: 15px solid transparent;
+  border-top: 15px solid #87ceeb;
+  content: '';
+  height: 0;
+  left: 30px;
+  position: absolute;
+  top: 100%;
+  width: 0;
+}
+
+.user_login{
+  background: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  padding: 5%;
+  color: #5d627b;
+  margin: 5%;
+  width: 500px;
+}
+
+.user_login p {
+  margin: 0;
+  padding: 0;
+}
+
+.user_login .square_btn{
+  margin-left: 400px;
+}

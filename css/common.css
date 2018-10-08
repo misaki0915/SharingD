@@ -1,0 +1,83 @@
+a{
+  display: block;
+  text-decoration: none;
+}
+
+body{
+  background: -moz-linear-gradient(top, #FFF, #E0F2F7);
+  background: -webkit-linear-gradient(top, #FFF, #E0F2F7);
+  background: linear-gradient(top, #FFF, #E0F2F7);
+  background-repeat: no-repeat;
+  font-family: serif;
+}
+
+footer{
+  background-color: #191970;
+}
+
+h1{
+  color: #000080;
+  font-family: serif;
+  line-height: 1;
+  transition: 20s;
+}
+
+h1:hover {
+  color: #228b22;
+}
+
+p{
+  color: #585858;
+  font-family: serif;
+}
+
+.flex{
+  align-items:flex-start;
+  display: flex;
+}
+
+.login{
+  text-align: right;
+}
+
+.red{
+  color: red;
+}
+
+.square_btn{
+  background: #ECECEC;
+  color: #00BCD4;
+  display: inline-block;
+  font-size: 120%;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+  transition: .4s;
+  padding: 0.25em 0.5em;
+  position: relative;
+}
+
+.square_btn:hover {
+  background: #00bcd4;
+  color: white;
+}
+
+.square_btn_gr{
+  background: #ECECEC;
+  color: #2f4f4f;
+  display: inline-block;
+  font-size: 120%;
+  font-weight: bold;
+  margin: auto;
+  margin-right: 10px;
+  position: relative;
+  padding: 0.25em 0.5em;
+  text-align: left;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.square_btn_gr:hover {
+    background: #2f4f4f;
+    color: white;
+}
